@@ -11,7 +11,7 @@ docker run --rm docker-demo
 
 ## GitHub Actions
 
-The [`.github/workflows/docker-publish.yml`](.github/workflows/docker-publish.yml) workflow builds and pushes the image to GitHub Container Registry (`ghcr.io`) on:
+The [`.github/workflows/docker-publish.yml`](.github/workflows/docker-publish.yml) workflow builds and pushes a multi-arch image (`linux/amd64`, `linux/arm64`) to GitHub Container Registry (`ghcr.io`) on:
 
 - Push to `main`
 - Tags matching `v*.*.*`
